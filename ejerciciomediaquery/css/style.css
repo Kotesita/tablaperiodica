@@ -1,0 +1,53 @@
+*{
+    color: black;
+    margin:1px;
+    padding: 1px;
+}
+.parrafo{
+    text-align: justify;
+    background-color: cadetblue;
+    width: 100%;
+}
+h1{
+    background-color: coral;
+    text-align: center;
+    width: 100%;
+}
+*.parrafo2{
+    background-color: darkseagreen;
+    width: 100%;
+}
+
+@media only screen and (max-width: 480px){
+    .container-1{
+        display: none !important;
+    }
+    .container-2{
+        display: none !important;
+    }
+    .container-3{
+        display: block !important;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .container-1{
+        display: none !important;
+    }
+    .container-2{
+        display: block !important;
+    }
+    .container-3{
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .container-1{
+        display: block !important;
+    }
+    .container-2{
+        display: none !important;
+    }
+    .container-3{
+        display: none !important;
+    }
+}

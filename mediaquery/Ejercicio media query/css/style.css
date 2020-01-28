@@ -1,0 +1,83 @@
+*{
+    font-family: sans-serif;
+}.facet_sidebar {
+      display: none;
+    }
+div.container{
+    width: 100%;
+    height: 1000px;
+    margin: 0px auto;
+    margin-right: 0px;
+}
+div.containerdos{
+    display: none;
+}
+    div.top{
+        height: 300px;
+    }
+    div.topmovil{
+        display: none;
+    }
+        div.top .fototop{
+            width: 35%;
+            height: 300px;
+            display: inline-block;
+        }
+        div.top .titulouno{
+            width: 64%;
+            max-height: 70px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: 130px;
+            font-size: 70px;
+            color: tomato;
+        }
+    div.contentuno{
+        width: 100%;
+        height: 230px;
+        background-color: lightgray;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+        div.contentuno h2{
+            font-size: 35px;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            padding-top: 30px;
+        }
+        div.contentuno .parrafouno{
+            width: 60%;
+            height: 90px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            text-align: center;
+            margin-left: 250px;
+        }
+        div.contentdos{
+            height: 350px;
+            background-color: gray;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+            div.contentdos .fotobottom{
+                width: 35%;
+                height: 300px;
+                display: inline-block;
+                padding-top: 20px;
+                padding-left: 30px;
+            }
+            div.contentdos .parrafodos{
+                width: 45%;
+                max-height: 70px;
+                display: inline-block;
+                text-align: center;
+                vertical-align:25px;
+                padding-top: 20px;
+                padding-left: 130px;
+                color: white;
+            }

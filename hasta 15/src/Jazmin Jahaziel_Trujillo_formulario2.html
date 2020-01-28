@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+        <form action="" align="center">
+            <h1>FORMULARIO DE REGISTRO</h1>
+                <input type="text" id="nombre" name="nombre" placeholder="nombre" required> <br/><br/>
+                <input type="text" id="apellido" name="apellido" placeholder="apellido" required> <br/><br/>  
+                <input type="text" id="email" name="email" placeholder="ejemploemail@gmail.com" required> <br/><br/>
+                <input type="password" id="password" name="password" placeholder="contraseña" required> <br/>
+                <input  type="password" id="pw_confirm" name="password_confirmacion" placeholder="repite la contraseña" required> <br/>
+            <p>Fecha de Nacimiento:</p>
+                    <input type="date" name="bdaytime"> <br/>
+           
+            <p>¿Con qué Género te identificas?</p>
+                <label for="hombre">Hombre</label>
+                <input align="center" type="checkbox" id="genero" name="hombre" value="hombre">
+                <label for="mujer">Mujer</label>
+                    <input type="checkbox" id="genero" name="mujer" value="mujer">
+                <label for="otro">Otro</label>
+                    <input type="radio" id="genero" name="otro" value="otro"> <br/><br/>
+                <textarea name="descripcion" placeholder="cuentame de ti"></textarea>
+            <p>Lenguaje Preferido:</p>
+                <select>
+                    <option>Java</option>
+                    <option>Javascript</option>
+                    <option>Phyton</option>
+                </select> <br/> <br/>
+            <input type="submit" value="Enviar" id=boton>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../src/css/blog.css">
+    </head>
+    <body style="background-color: #2A3540; color:bisque; font-family:sans-serif;">
+        <div align="center">
+            <h1>BLOG DE MENTIRITAS</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing
+                Lorem Ipsum passages, and more recently with desktoppublishing software like Aldus PageMaker including versions 
+                of Lorem Ipsum.
+            </p>
+        </div>
+        <table align="center" border="1">
+                <tread>
+                    <th>MONTAÑA</th>
+                    <th>ALTURA</th>
+                </tread>
+                <tbody>
+                    <tr>
+                        <td> <label type="text" name="everest">Monte Everest </label> </td>
+                        <td> <label type="text" name="everest"> </label>8848m </td>
+                    </tr>
+                    <tr>
+                        <td> <label type="text" name="k2"> </label>K2 </td>
+                        <td> <label type="text" name="k2"> </label>8611m </td>
+                    </tr>
+                    <tr>
+                        <td> <label type="text" name="kanchen"> </label>Kanchenjunga </td>
+                        <td> <label type="text" name="kanchen"> </label>8586m </td>
+                    </tr>
+                    <tr>
+                        <td> <label type="text" name="lhotse"> </label>Lhotse I </td>
+                        <td> <label type="text" name="lhotse"> </label>8516m </td>
+                    </tr>
+                </tbody>
+        </table>
+        <!--tablita-->
+        <div align="center">
+            <h3>Montañas mas altas de chile</h3>
+                <ul>
+                    <li>Ojos del Salado, nevado (6.893 m)</li>
+                    <li>Andes (Argentina, Chile) Tres Cruces, cerro (6.748 m)</li>
+                    <li>Llullaillaco, volcán (6.739 m) - Andes (Chile, Argentina)</li>
+                </ul>
+        </div>
+        <a href="http://www.montipedia.com/montanas-altas/chile/">Click aquí para ver mas</a>
+        <!--formulario--> 
+        <form action="" align="center">
+            <h4>Respode esta encuenta</h4> 
+                <input type="text" id="nombre" name="nombre" placeholder="nombre" required>
+                <input type="text" id="correo" name="correo" placeholder="e-mail" required>
+                <!--Genero-->
+            <p>¿Con qué Género te identificas?</p>
+                <table align="center">
+                    <tread></tread>
+                    <tbody>
+                        <tr>
+                            <td> <label type="text" name="hombre">hombre </label> </td>
+                            <td> <input align="center" type="checkbox" id="genero" name="hombre" value="hombre">
+                        </tr>
+                        <tr>
+                            <td> <label type="text" name="mujer"> </label>mujer </td>
+                            <td> <input type="checkbox" id="genero" name="mujer" value="mujer"></td>
+                        </tr>
+                        <tr>
+                            <td> <label type="text" name="otro"> </label>otro </td>
+                            <td> <input type="radio" id="genero" name="otro" value="otro"> </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--opciones-->
+                <p>¿Qué montaña de chile deberíamos agregar?</p>
+                    <select>
+                        <option value="parinacota"> Parinacota </option>
+                        <option value="sanpedro"> San Pedro </option>
+                        <option value="sierrnevada"> Sierra Nevada </option>
+                    </select> <br/><br/>
+             <input type="submit" value="Enviar" id=boton>
+        </form>    
+    </body>
+</html>

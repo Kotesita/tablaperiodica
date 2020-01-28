@@ -1,0 +1,7 @@
+@font-face{
+    font-family: myfirstfont;
+    src: url(sh.oft);
+}
+*{
+    font-family: myfirstfont;
+}
